@@ -115,7 +115,7 @@ public class Assignment04Heuristic {
 		boolean caught = false;
 		String choice = null;
 		
-		if (all || (caught = (size <= range)))
+		if (all || (caught = (size >= range)))
 		{
 			choice = "Q";
 			if (choiceOnly) return choice;
